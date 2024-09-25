@@ -1,0 +1,16 @@
+<div class="row">
+  <div class="col-sm-3" *ngFor="let item of prod">
+    <div class="prod">
+      <img src="{{ item.image }}" alt="" />
+      <div>
+        <h6>{{ item.name }}</h6>
+        <div>
+          <h6>Preis:{{ item.price }}</h6>
+        </div>
+      </div>
+      <div>
+        <a routerLink="/details/{{ item.id }}"> Weitere Details Anzeigen</a>
+      </div>
+    </div>
+  </div>
+</div>

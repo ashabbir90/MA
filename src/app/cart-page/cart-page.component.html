@@ -1,0 +1,35 @@
+<div>
+  <div class="row">
+    <div class="col-sm-6 det">
+      <ul *ngFor="let cart of Data">
+        <li>
+          <img src="{{cart.image}}" alt="">
+        </li>
+        <li>
+          <span> {{cart.name}}</span>
+        </li>
+        <li>
+          <span> Preis: {{cart.price}}</span>
+        </li>
+        <li>
+          <span> Quantität: {{cart.quantity}}</span>
+        </li>
+        <li>
+          <button (click)="removeFromCart(cart.id)">Löschen</button>
+        </li>
+      </ul>
+    </div>
+    <div class="col-sm-4 summ">
+      <h3>Zusammenfassung</h3>
+      <ul>
+        <li> <span>Betrag:</span><span>{{getTotal.price}}</span></li>
+
+        <li> <span>
+            <h4>Gesamtbetrag:</h4>
+          </span> <span>
+            <h4>{{getTotal.total}}</h4>
+          </span></li>
+      </ul>
+    </div>
+  </div>
+</div>

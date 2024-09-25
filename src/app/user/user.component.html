@@ -1,0 +1,33 @@
+<div class="user-auth">
+
+  <h1>Login</h1>
+  <form #Login="ngForm" class="form" (ngSubmit)="login(Login.value)">
+
+    <input
+      type="text"
+      class="input"
+      name="email"
+      placeholder="Email"
+      ngModel
+      email
+      #email="ngModel"
+      required
+    />
+
+    <input
+    type="password"
+    class="input"
+    name="password"
+    placeholder="Password"
+    ngModel
+    minlength="2"
+    maxlength="20"
+    #password="ngModel"
+    required
+  />
+
+  <button [disabled]="Login.invalid" class="button">Login</button>
+
+  </form>
+ </div>
+

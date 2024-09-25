@@ -1,0 +1,105 @@
+{
+  "test": [
+    {
+      "name": "test",
+      "id": 1
+    },
+    [
+      {
+        "name": "testagain"
+      }
+    ]
+  ],
+  "products": [
+    {
+      "name": "Erdbeeren  ",
+      "price": "7",
+      "description": "Frische Früchte",
+      "image": "https://firebasestorage.googleapis.com/v0/b/react-pwa-1ef2d.appspot.com/o/product-images%2Fstrawberry_red_fruit.jpg?alt=media&token=8615820b-cb67-4136-888a-9977c3a1ad7f",
+      "id": 1
+    },
+    {
+      "name": "Bananen",
+      "price": "10",
+      "description": "Frische Früchte",
+      "image": "https://firebasestorage.googleapis.com/v0/b/react-pwa-1ef2d.appspot.com/o/product-images%2F049_4000x2678_all-free-download.com_5714383.jpg?alt=media&token=55a6b091-9919-4dbb-9a4c-99259475c642",
+      "id": 2
+    },
+    {
+      "name": "Brombeere",
+      "price": "8",
+      "description": "Frische Früchte",
+      "image": "https://firebasestorage.googleapis.com/v0/b/react-pwa-1ef2d.appspot.com/o/product-images%2Fberry_black_blackberry.jpg?alt=media&token=e1202790-f46c-4d6c-bf81-55186791c6c5",
+      "id": 3
+    },
+    {
+      "name": "Apfel",
+      "price": "5",
+      "description": "Frische Früchte",
+      "image": "https://firebasestorage.googleapis.com/v0/b/react-pwa-1ef2d.appspot.com/o/product-images%2Fred_apple_isolated.jpg?alt=media&token=5daf47fd-5c25-4fef-8f7b-db9db9662242",
+      "id": 4
+    },
+    {
+      "name": "Orange",
+      "price": "5",
+      "description": "Frische Früchte ",
+      "image": "https://firebasestorage.googleapis.com/v0/b/react-pwa-1ef2d.appspot.com/o/product-images%2Forange_fruit_vitamins.jpg?alt=media&token=9fd5ca49-0159-4191-9a90-a48625fe9c0f",
+      "id": 5
+    },
+    {
+      "name": "Wassermelone",
+      "price": "20",
+      "description": "Frische Früchte",
+      "image": "https://firebasestorage.googleapis.com/v0/b/react-pwa-1ef2d.appspot.com/o/product-images%2Fwatermelon_melon_fruit.jpg?alt=media&token=62b7c952-d003-4942-b776-e58b4decfae4",
+      "id": 6
+    },
+    {
+      "name": "Kiwi",
+      "price": "8",
+      "description": "Frische Früchte",
+      "image": "https://firebasestorage.googleapis.com/v0/b/react-pwa-1ef2d.appspot.com/o/product-images%2Fkiwi_fruit_kiwi_fruit.jpg?alt=media&token=3fa5d926-7030-40d9-8133-8ba3acd4b173",
+      "id": 7
+    }
+  ],
+  "users": [
+    {
+      "name": "new",
+      "email": "123",
+      "password": "new",
+      "id": 1
+    },
+    {
+      "name": "test",
+      "email": "test.com",
+      "password": "123",
+      "id": 4
+    },
+    {
+      "name": "11",
+      "email": "test@test.com",
+      "password": "123",
+      "id": 5
+    },
+    {
+      "name": "max",
+      "email": "new@seller123.com",
+      "password": "123",
+      "id": 6
+    }
+  ],
+  "cart": [
+    {
+      "name": "Apfel",
+      "price": "5",
+      "description": "Frische Früchte",
+      "image": "https://firebasestorage.googleapis.com/v0/b/react-pwa-1ef2d.appspot.com/o/product-images%2Fred_apple_isolated.jpg?alt=media&token=5daf47fd-5c25-4fef-8f7b-db9db9662242",
+      "id": 4,
+      "quantity": 3,
+      "productId": 4,
+      "userId": 6
+    },
+    {
+      "id": 5
+    }
+  ]
+}

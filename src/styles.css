@@ -1,0 +1,24 @@
+body {
+  font-family: sans-serif;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 290px;
+  margin: auto;
+}
+.input {
+  height: 37px;
+  margin-bottom: 25px;
+  border: 1px solid rgb;
+  padding-left: 15px;
+  color: rgb;
+}
+.button {
+  height: 37px;
+  border: 1px solid rgb;
+  color: rgb(10, 10, 10);
+
+}
+
